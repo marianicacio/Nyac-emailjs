@@ -5,7 +5,7 @@
     function handleEmail() {
         let templateParams = {
             name: "Destinatário",
-            user_email: "darlysonrobson098@gmail.com",
+            user_email: "yasminhoca27@gmail.com",
             from_name: "Newspaper",
             message: "Conteúdo de mensagem aqui..."
         }
