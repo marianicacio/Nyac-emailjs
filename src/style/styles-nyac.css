@@ -85,4 +85,16 @@ input {
     opacity: 50%;
 }
 
+@media (max-width: 800px) {
+    body {
+        border: 1px solid #000000;
+        margin: 20px;
+    }
+
+    header img {
+        width: 290px;
+        height: 250px;
+    }
+}
+
 
