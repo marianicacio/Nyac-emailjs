@@ -85,16 +85,47 @@ input {
     opacity: 50%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 420px) {
     body {
         border: 1px solid #000000;
         margin: 20px;
+        z-index: 1;
     }
 
     header img {
         width: 290px;
         height: 250px;
     }
+
+    .what-is-it {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .what-is-it img {
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        height: 280px;
+        margin-top: -570px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -55px;
+    }
+
+    .what-is-it h1 {
+        z-index: 10;
+        color: #1C2025;
+        background: rgba(122, 149, 158, 0.75);
+        border-radius: 16px;
+    }
+
+    .align-items p {
+        font-size: 16px;
+        width: 352px;
+        display: flex;
+        margin-top: 100px;
+        margin-left: -15px;
+    }
+    
 }
-
-
