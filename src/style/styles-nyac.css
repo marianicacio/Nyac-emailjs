@@ -111,7 +111,7 @@ input {
     .what-is-it img {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 390px;
         height: 260px;
         margin-top: -570px;
         justify-content: center;
@@ -128,7 +128,7 @@ input {
 
     .align-items p {
         font-size: 16px;
-        width: 352px;
+        width: 340px;
         display: flex;
         margin-top: 100px;
         margin-left: -30px;
@@ -157,7 +157,7 @@ input {
 
     .who-we-are p {
         font-size: 16px;
-        width: 342px;
+        width: 330px;
         display: flex;
         margin-top: 100px;
         margin-left: -70px;
@@ -190,7 +190,7 @@ input {
 
     .what-we-offer p {
         font-size: 16px;
-        width: 342px;
+        width: 326px;
         display: flex;
         text-align: center;
         margin-left: -70px;
