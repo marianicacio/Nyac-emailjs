@@ -111,7 +111,7 @@ input {
     .what-is-it img {
         display: flex;
         flex-direction: column;
-        width: 390px;
+        width: 375px;
         height: 260px;
         margin-top: -570px;
         justify-content: center;
@@ -128,7 +128,7 @@ input {
 
     .align-items p {
         font-size: 16px;
-        width: 340px;
+        width: 325px;
         display: flex;
         margin-top: 100px;
         margin-left: -30px;
@@ -157,7 +157,7 @@ input {
 
     .who-we-are p {
         font-size: 16px;
-        width: 330px;
+        width: 325px;
         display: flex;
         margin-top: 100px;
         margin-left: -70px;
