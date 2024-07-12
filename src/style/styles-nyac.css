@@ -85,6 +85,12 @@ input {
     opacity: 50%;
 }
 
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+}
+
 @media (max-width: 420px) {
     body {
         border: 1px solid #000000;
@@ -105,8 +111,8 @@ input {
     .what-is-it img {
         display: flex;
         flex-direction: column;
-        width: 420px;
-        height: 280px;
+        width: 400px;
+        height: 260px;
         margin-top: -570px;
         justify-content: center;
         align-items: center;
@@ -125,7 +131,83 @@ input {
         width: 352px;
         display: flex;
         margin-top: 100px;
-        margin-left: -15px;
+        margin-left: -30px;
     }
-    
+
+    .who-we-are {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-we-are img {
+        width: 300px;
+        height: 240px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -55px;
+    }
+
+    .who-we-are h1 {
+        z-index: 10;
+        color: #1C2025;
+        background: rgba(122, 149, 158, 0.75);
+        border-radius: 16px;
+        margin-top: -240px;
+    }
+
+    .who-we-are p {
+        font-size: 16px;
+        width: 342px;
+        display: flex;
+        margin-top: 100px;
+        margin-left: -70px;
+    }
+
+    .what-we-offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .what-we-offer img {
+        width: 300px;
+        height: 240px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+        margin-top: -570px;
+    }
+
+    .what-we-offer h1 {
+        z-index: 10;
+        color: #1C2025;
+        background: rgba(122, 149, 158, 0.75);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .what-we-offer p {
+        font-size: 16px;
+        width: 342px;
+        display: flex;
+        text-align: center;
+        margin-left: -70px;
+        margin-top: 100px;
+    }
+
+    .img-align img {
+        display: none;
+    }
+
+    .form {
+        padding-top: 350px;
+        width: 50px;
+        margin-left: 130px;
+    }
+
+    #mc_embed_signup {
+        width: 200px;
+    }
 }
